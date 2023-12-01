@@ -55,7 +55,7 @@ def afficher_heure(heure_actuelle):
         except KeyboardInterrupt:
             break
 
-def on_space(keyboard_event):
+def espace(keyboard_event):
     global en_pause
     if keyboard_event.event_type == keyboard.KEY_DOWN:
         en_pause = not en_pause
